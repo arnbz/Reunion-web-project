@@ -1,0 +1,101 @@
+@font-face {
+  src: url(fonts/oswald/Oswald-Regular.ttf);
+  font-family: Oswald;
+}
+
+@font-face {
+  src: url(fonts/waltograph/waltograph42.ttf);
+  font-family: Waltograph;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.body{
+  background-color: red !important;
+}
+
+/*navbar design*/
+.navbar{
+  background-color: rgba(0,0,0, 0.8);
+  border: 0;
+  height: 100px;
+}
+
+/*design for navbar hamburger button for smaller devices*/
+.navbar-toggle{
+  margin-top: 31px;
+}
+
+/*design for navbar brand image*/
+.navbar-brand{
+  height: 100px;
+}
+
+.navbar-brand img{
+  height: 83px;
+  margin-left: 54.5%;
+}
+
+.navbar-collapse{
+  margin: 0;
+  border: 0;
+}
+
+/*design for navbar navigation*/
+.nav{
+  float: right;
+  margin-top: 23px;
+}
+
+.nav li a{
+  font-family: Oswald;
+  font-size: 1.2em;
+}
+
+.nav li a:hover{
+  color: #FFC947 !important;
+}
+
+/*design for active navigation tab*/
+.myActive{
+  background-color: #21252B;
+}
+
+.myActive a{
+  color: #CCFFCC !important;
+}
+
+.myActive a:hover{
+  color: #CCFFCC !important;
+}
+
+/*design for content1*/
+.content1{
+  background-image: url("images/harvard.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+}
+
+.content1 p{
+  color: #FF5B00;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+  text-align: center;
+  font-family: Waltograph;
+  font-size: 6em;
+  letter-spacing: 0.05em;
+}
+
+/*design for content 2*/
+.content2{
+  background-color: #282C34;
+  height: 500px;
+}

@@ -1,0 +1,323 @@
+@font-face{
+  src: url(fonts/GoodDog/GoodDog.otf);
+  font-family: GoodDog;
+}
+
+@font-face {
+  src: url(fonts/King-Basil/KingBasilLite.otf);
+  font-family: King;
+}
+
+@font-face {
+  src: url(fonts/oswald/Oswald-Regular.ttf);
+  font-family: Oswald;
+}
+
+@font-face {
+  src: url(fonts/pompiere/Pompiere-Regular.ttf);
+  font-family: Pompiere;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.body{
+  background-color: red !important;
+  position: relative; //for scrollspy
+}
+
+/*navbar design*/
+.navbar{
+  background-color: rgba(0,0,0, 0.8);
+  border: 0;
+  height: 100px;
+}
+
+/*design for navbar hamburger button for smaller devices*/
+.navbar-toggle{
+  margin-top: 31px;
+}
+
+/*design for navbar brand image*/
+.navbar-brand{
+  height: 50px;
+  margin-top: 25px;
+  padding-left: 100px;
+}
+
+.navbar-brand p{
+  font-family: King;
+  font-size: 2em;
+  color: #00BFFF;
+}
+
+.navbar-collapse{
+  margin: 0;
+  border: 0;
+}
+
+/*design for navbar navigation*/
+.nav{
+  float: right;
+  margin-top: 23px;
+}
+
+.nav li a{
+  font-family: Oswald;
+  font-size: 1.2em;
+}
+
+.nav li a:hover{
+  color: #FFC947 !important;
+}
+
+/*design for active navigation tab*/
+.active a{
+  color: #CCFFCC !important;
+  background-color: #21252B !important;
+}
+
+.active a:hover{
+  color: #CCFFCC !important;
+}
+
+/*design for login buttons in navbar*/
+.loginButton{
+  color: #3399FF !important;
+}
+
+/*designs for homepage*/
+/*design for content1*/
+.content1{
+  background-image: url("images/harvard.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+}
+
+.content1 p{
+  color: #FF5B00;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+  text-align: center;
+  font-family: King;
+  font-size: 6em;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px 0px black;
+}
+
+/*spacing*/
+.spacing{
+  background-color: #282C34;
+  height: 100px;
+}
+
+/*design for content 2*/
+.content2{
+  background-color: #282C34;
+  height: 430px;
+}
+
+.content2 h1{
+  color: #E2B241;
+  margin-top: 60px;
+  font-family: King;
+  font-size: 5em;
+  text-align: center;
+}
+
+.content2 p{
+  color: white;
+  margin-top: 30px;
+  font-family: GoodDog;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
+#content2Click{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+}
+
+.content2 p a{
+  color: #CCFFCC;
+  font-size: .8em;
+  float: right;
+}
+
+.content2 p a:hover{
+  color: #8CB6CE;
+  text-decoration: none;
+}
+
+/*design for content 3*/
+.content3{
+  height: 600px;
+  background-image: url("images/picnic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.content3 h1{
+  color: #FF5B00;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+  text-align: center;
+  font-family: King;
+  font-size: 6em;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px 0px black;
+}
+
+/*design for content 4*/
+.content4{
+  background-color: #282C34;
+  height: 350px;
+}
+
+.content4 h1{
+  color: #E2B241;
+  margin-top: 60px;
+  font-family: King;
+  font-size: 5em;
+  text-align: center;
+}
+
+.content4 p{
+  color: white;
+  margin-top: 30px;
+  font-family: GoodDog;
+  font-size: 1.7em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
+#content4Click{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+}
+
+.content4 p a{
+  color: #CCFFCC;
+  font-size: .8em;
+  float: right;
+}
+
+.content4 p a:hover{
+  color: #8CB6CE;
+  text-decoration: none;
+}
+
+/*design for content 5*/
+.content5{
+  height: 600px;
+  background-image: url("images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.content5 h1{
+  color: #FF5B00;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+  text-align: center;
+  font-family: King;
+  font-size: 6em;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px 0px black;
+}
+
+/*design for content 6*/
+.content6{
+  background-color: #282C34;
+  height: 350px;
+}
+
+.content6 h1{
+  color: #E2B241;
+  margin-top: 60px;
+  font-family: King;
+  font-size: 5em;
+  text-align: center;
+}
+
+.content6 p{
+  color: white;
+  margin-top: 30px;
+  font-family: GoodDog;
+  font-size: 1.7em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
+/*footer design*/
+.footer{
+  text-align: center;
+  background-color: black;
+  height: 50px;
+}
+
+.footer p{
+  margin-top: 10px;
+  color: white;
+  font-family: GoodDog;
+  font-size: 1.5em;
+}
+
+/*design for constitution page*/
+.constitution-content{
+  height: auto;
+  padding-top: 20px;
+}
+
+.constitution-content h1{
+  color: #E2B241;
+  font-family: King;
+  text-align: center;
+  word-spacing: .5em;
+  line-height: 2em;
+}
+
+.constitution-content h3{
+  color: #E2B241;
+  font-size: 1.8em;
+  letter-spacing: 0.05em;
+  word-spacing: .3em;
+  font-family: Pompiere;
+}
+
+.constitution-content p{
+  color: white;
+  font-size: 1.8em;
+  letter-spacing: 0.05em;
+  word-spacing: .2em;
+  font-family: Pompiere;
+}
+
+/*design for logIn page*/
+
+.form{
+  margin-top: 200px;
+}
